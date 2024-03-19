@@ -654,68 +654,30 @@ margin-left:80px;
 footer {
     background-color: #4B3621;
     margin:0px;
-    padding: 15px;
-    color:#B2DFDC !important;
+    padding: 30px;
     text-align: center;
 }
 
-div.footer-icons  a {
-    /* display: flex; */
+.footer-img {
+    width:5%;
+}
+.footer-title {
     color:#B2DFDC !important;
-    font-size: 30px;
-    padding: 10px;
- 
-}
-/* log in test
-
-div.login {
-    background-color: #FFF6E9;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-} 
-
-.container {
-    background-color: #F4C3C2;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.footer-sub {
+    color:#B2DFDC !important;
+    text-align: center;
+    font-weight: 900 !important;
 }
 
-label {
-    margin-top: 10px;
-    color: #4B3621;
+.footer-em {
+    color:#F4C3C2;
+    font-family: quicksand;
+    
 }
-
-input {
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #4B3621;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #A8CFCA;
-    color: #4B3621;
-    padding: 10px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #4B3621;
-    color: #FFF6E9;
-} */
 
 /*========== Recipe Pages ==========*/
 .recipes-btn {
@@ -1000,7 +962,8 @@ img.recipe-img {
   overflow:hidden;
   display: flex;
   flex-wrap: wrap;
-   justify-content: space-evenly; 
+   justify-content: space-evenly;
+   margin-bottom:20px;
 }
 
 #myBtnContainer {
