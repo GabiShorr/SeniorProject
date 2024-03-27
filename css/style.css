@@ -1008,3 +1008,44 @@ h3.nav-header {
     display: block;
 }
 }
+
+@media (max-width:786px) {
+    .recipe-icons a {
+       font-size: 15px;
+    }
+    .home-icons {
+        padding:25px;
+    }
+    div.apple-1 h1 {
+        font-size: 25px;
+    }
+    .ingredients-list , .steps-list {
+        line-height:15px;
+    }
+    }
+
+    @media (max-width:491px) {
+        nav.nav-bar  {
+            display:block;
+            justify-content: center;
+        }
+
+        div.nav-items {
+            display: block;
+            text-align: center;
+        }
+        
+        h3.nav-header {
+            font-size:16px;
+            text-align: center;
+        }
+        
+        .recipe-boxes {
+            display: block;
+        }
+        }
+
+        div.logo {
+            display: grid;
+            place-items: center;
+        }
