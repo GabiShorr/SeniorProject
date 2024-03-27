@@ -989,3 +989,22 @@ img.recipe-img {
   background-color: #F4C3C2;
   color: #4B3621;
 }
+
+
+/* ========== Mobile Responsive ========== */
+
+/* nav items */
+
+@media (max-width:991px) {
+.navbar a {
+    font-size: 17px;
+}
+
+h3.nav-header {
+    font-size:18px;
+}
+
+.recipe-boxes {
+    display: block;
+}
+}
