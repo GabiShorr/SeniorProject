@@ -1022,6 +1022,13 @@ h3.nav-header {
     .ingredients-list , .steps-list {
         line-height:15px;
     }
+    div.logo {
+        display: grid;
+        place-items: center;
+    }
+    .footer-img {
+        width:10%
+    }
     }
 
     @media (max-width:491px) {
@@ -1043,9 +1050,13 @@ h3.nav-header {
         .recipe-boxes {
             display: block;
         }
-        }
-
         div.logo {
             display: grid;
             place-items: center;
         }
+        .footer-img {
+            width:20%
+        }
+        }
+
+        
